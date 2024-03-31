@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+<body>
+    <h1>Movie time</h1>
+
+    <input id="inputName" placeholder="Type Movie Here">
+    <input id="inputYear" placeholder="Type Year">
+    <button id="btnsearch" >search</button> 
+
+
+    
+    <script src="app.js"></script>
+
+
+
+    <div class="flex-container">
+
+        <!-- text details -->
+        <div class="flex-col-1">
+            <h1 id="movieTitle"></h1>
+            <div>
+                <span class="bold-text">Genre:</span>
+                <span id="pGenre"></span>
+            </div>
+
+            <div>
+                <span class="bold-text">Year:</span>
+                <span id="pYear"></span>
+            </div>
+
+            <div>
+                <span class="bold-text">Director:</span>
+                <span id="pDirector"></span>
+            </div>
+
+            <div>
+                <span class="bold-text">Actors:</span>
+                <span id="pActors"></span>
+            </div>
+           
+        </div>
+
+        <!-- poster -->
+        <div class="flex-col-2">
+            <img id="imgPoster">
+        </div>
+
+    </div>
+
+    <!-- plot -->
+    <div>
+        <p  class="bold-text">Plot:</p>
+        <p id="pPlot"></p>
+    </div>
+
+</body>
+</html>

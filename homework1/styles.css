@@ -1,0 +1,15 @@
+.bold-text {
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-col-1 {
+    flex: 70%
+}
+
+.flex-col-2 {
+    flex: 30%;
+}
